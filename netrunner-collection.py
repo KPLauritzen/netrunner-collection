@@ -48,7 +48,7 @@ def append_collection(f, id, count):
     Add a card 'count' times to the file 'f'.
     """
     for i in range(count):
-        f.write('<img src=imgs/{id}.png width=216 height=300>\n'.format(**locals()))
+        f.write('<img src=imgs/{id}.png width=228>\n'.format(**locals()))
 
 if __name__ == '__main__':
     # Make sure the 'imgs/' dir exists
